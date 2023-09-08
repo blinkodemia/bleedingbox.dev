@@ -1,0 +1,15 @@
+body {
+    padding: 2rem;
+    background-color: #303030;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.header {
+    padding: 2rem;
+    background-color: #484848;
+    color: #d89060;
+}
+
+#about {
+    color: white;
+}
