@@ -13,3 +13,14 @@ body {
 #about {
     color: white;
 }
+
+a {
+    color: #c04848;
+}
+
+.footer {
+    color: white;
+    padding: 2rem;
+    position:absolute;
+    bottom: 0;
+}
