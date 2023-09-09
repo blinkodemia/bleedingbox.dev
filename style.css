@@ -14,6 +14,17 @@ body {
     color: white;
 }
 
+.content {
+    padding: 4rem;
+    background-color: #525252;
+    color: white;
+}
+
+#post {
+    border: #d89060 solid 4px;
+    padding: 1rem;
+}
+
 a {
     color: #c04848;
 }
@@ -21,6 +32,6 @@ a {
 .footer {
     color: white;
     padding: 2rem;
-    position:absolute;
+    position: absolute;
     bottom: 0;
 }

@@ -27,10 +27,22 @@
         <h3>Here, I will post all my projects, make sure to check them out</h3>
       </div>
     </div>
-    <div class="content"></div>
+    <div class="content">
+      <div id="post">
+        <time datetime="2023/09/09">2023/09/09</time>
+        <h4>
+          Today I made a mastodon account! It's at the bottom of this page.
+        </h4>
+      </div>
+    </div>
     <div class="footer">
+      <p>Current time: <span id="date-time"></span></p>
       <a href="https://github.com/blinksore/blinksore.github.io">Source Code</a>
       <a rel="me" href="https://protogen.social/@blinkodemia">Mastodon</a>
     </div>
+    <script>
+      var dt = new Date();
+      document.getElementById("date-time").innerHTML = dt;
+    </script>
   </body>
 </html>
