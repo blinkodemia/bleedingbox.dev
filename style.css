@@ -15,7 +15,7 @@ body {
 }
 
 .content {
-  padding: 4rem;
+  padding: 2rem;
   background-color: #525252;
   color: white;
 }
@@ -23,7 +23,6 @@ body {
 #Updates {
   text-align: left;
   padding: 4px;
-  margin: 2rem;
 }
 
 a {
