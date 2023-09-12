@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta content="blinkoid_" property="og:title" />
+    <meta content="blinkodemia_" property="og:title" />
     <meta
       content="Personal website where I post my projects, etc."
       property="og:description"
@@ -14,29 +14,31 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
     </style>
+    <script src="index.js"></script>
     <title>blinkoid</title>
   </head>
-  <body>
+  <body onload="getTime(); blink();">
     <div class="header">
       <div id="name">
-        <h1>blink@a320!</h1>
-        <h4 style="color: #c04848">he/him</h4>
+        <h1>blinkodemia<span id="blink">_</span></h1>
+        <h4 style="color: #c04848">he/they</h4>
       </div>
       <div id="about">
-        <h3>Web developer, currently learning JavaScript and React.</h3>
-        <h3>Here, I will post all my projects, make sure to check them out</h3>
+        <p>Web developer, currently learning JavaScript and React.</p>
+        <p>Here, I will post all my projects, make sure to check them out</p>
       </div>
     </div>
     <div class="content">
-      <div id="post">
-        <h4>
+      <div id="updates">
+        <h4>Updates</h4>
+        <p>
           <time datetime="2023/09/09">2023/09/09</time>
           Today I made a mastodon account! It's at the bottom of this page.
-        </h4>
-        <h3>
+        </p>
+        <p>
           <time datetime="2023/09/11">2023/09/11</time>
-          Might start writing the React version of this website, I also made a gitlab, it's at the bottom of this page 
-        </h3>
+          Might start writing the React version of this website!
+        </p>
       </div>
     </div>
     <div class="footer">
@@ -44,9 +46,5 @@
       <a href="https://github.com/blinksore/blinksore.github.io">Source Code</a>
       <a rel="me" href="https://protogen.social/@blinkodemia">Mastodon</a>
     </div>
-    <script>
-      var dt = new Date();
-      document.getElementById("date-time").innerHTML = dt;
-    </script>
   </body>
 </html>

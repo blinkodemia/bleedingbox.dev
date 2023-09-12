@@ -20,9 +20,10 @@ body {
   color: white;
 }
 
-#post {
-  border: #d89060 solid 4px;
-  padding: 1rem;
+#Updates {
+  text-align: left;
+  padding: 4px;
+  margin: 2rem;
 }
 
 a {
