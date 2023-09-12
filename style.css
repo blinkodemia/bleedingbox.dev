@@ -1,37 +1,37 @@
 body {
-    padding: 2rem;
-    background-color: #303030;
-    font-family: 'Source Code Pro', monospace;
+  padding: 2rem;
+  background-color: #303030;
+  font-family: "Source Code Pro", monospace;
 }
 
 .header {
-    padding: 2rem;
-    background-color: #484848;
-    color: #d89060;
+  padding: 2rem;
+  background-color: #484848;
+  color: #d89060;
 }
 
 #about {
-    color: white;
+  color: white;
 }
 
 .content {
-    padding: 4rem;
-    background-color: #525252;
-    color: white;
+  padding: 4rem;
+  background-color: #525252;
+  color: white;
 }
 
 #post {
-    border: #d89060 solid 4px;
-    padding: 1rem;
+  border: #d89060 solid 4px;
+  padding: 1rem;
 }
 
 a {
-    color: #c04848;
+  color: #c04848;
 }
 
 .footer {
-    color: white;
-    padding: 2rem;
-    position: absolute;
-    bottom: 0;
+  color: white;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
 }
