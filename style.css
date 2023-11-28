@@ -1,13 +1,13 @@
 body {
   padding: 2rem;
-  background-color: #303030;
+  background-color: #161616;
   font-family: "JetBrains Mono", monospace;
 }
 
 .header {
   padding: 2rem;
-  background-color: #484848;
-  color: #d89060;
+  background-color: #262626;
+  color: #EE5396;
 }
 
 #about {
@@ -16,7 +16,7 @@ body {
 
 .content {
   padding: 2rem;
-  background-color: #525252;
+  background-color: #393939;
   color: white;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: #c04848;
+  color: #FF7EB6;
 }
 
 .footer {
