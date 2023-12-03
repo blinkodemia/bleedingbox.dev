@@ -2,6 +2,7 @@ body {
   padding: 2rem;
   background-color: #161616;
   font-family: "JetBrains Mono", monospace;
+  text-align: center;
 }
 
 .header {
@@ -21,7 +22,7 @@ body {
 }
 
 #Updates {
-  text-align: left;
+  text-align: center;
   padding: 4px;
 }
 
@@ -32,6 +33,5 @@ a {
 .footer {
   color: white;
   padding: 2rem;
-  position: absolute;
   bottom: 0;
 }
