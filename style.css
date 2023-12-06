@@ -15,6 +15,12 @@ pre {
   color: #3ddbd9;
 }
 
+@media screen and (max-width: 1196px) {
+  #logo {
+    display: none;
+  }
+}
+
 a {
   color: #42be65;
 }
