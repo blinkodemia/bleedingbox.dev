@@ -3,16 +3,18 @@
 
 :root {
   padding: 2rem;
+  font-display: swap;
   font-family: "JetBrains Mono", monospace, ui-monospace;
   color: #f2f4f8;
   font-style: italic;
   background-color: #161616;
-  text-align: center;
+  text-align: left;
 }
 
 pre {
   font-size: 32px;
-  color: #3ddbd9;
+  color: #33b1ff;
+  text-align: center;
 }
 
 @media screen and (max-width: 1196px) {
@@ -22,10 +24,12 @@ pre {
 }
 
 a {
-  color: #42be65;
+  color: #3ddbd9;
 }
 
 footer {
+  padding: 1rem;
+  text-align: center;
   bottom: 0;
 }
 
@@ -36,4 +40,15 @@ footer {
 
 #blogs {
   padding: 1rem;
+}
+
+#bar {
+  padding: 1rem;
+  background-color: #262626;
+  text-align: center;
+}
+
+#content {
+  padding: 1rem;
+  background-color: #262626;
 }
