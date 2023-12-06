@@ -1,37 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+  background-color: #161616;
+}
+
+html {
+  background-color: #161616;
+}
+
 body {
   padding: 2rem;
   background-color: #161616;
   font-family: "JetBrains Mono", monospace;
-  text-align: center;
+  text-align: left;
 }
 
-.header {
-  padding: 2rem;
-  background-color: #262626;
-  color: #ee5396;
-}
-
-#about {
-  color: white;
-}
-
-.content {
-  padding: 2rem;
-  background-color: #393939;
-  color: white;
-}
-
-#Updates {
-  text-align: center;
-  padding: 4px;
+pre {
+  font-size: 32px;
+  color: #3ddbd9;
 }
 
 a {
-  color: #ff7eb6;
+  color: #42be65;
 }
 
-.footer {
-  color: white;
-  padding: 2rem;
+footer {
   bottom: 0;
+}
+
+#info {
+  padding: 1rem;
+  background-color: #262626;
+}
+
+#blogs {
+  padding: 1rem;
 }
