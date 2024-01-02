@@ -7,14 +7,14 @@
   font-family: "JetBrains Mono", monospace, ui-monospace;
   color: #f2f4f8;
   font-style: italic;
-  background-color: #161616;
+  background-color: #0B0E14;
   text-align: left;
 }
 
-pre {
+#logo {
   font-size: 32px;
-  color: #33b1ff;
-  text-align: center;
+  color: #FFB454;
+  text-align: right;
 }
 
 @media screen and (max-width: 1196px) {
@@ -24,7 +24,7 @@ pre {
 }
 
 a {
-  color: #3ddbd9;
+  color: #FFB454;
 }
 
 footer {
@@ -35,7 +35,7 @@ footer {
 
 #info {
   padding: 1rem;
-  background-color: #262626;
+  background-color: #11151C;
 }
 
 #blogs {
@@ -44,11 +44,11 @@ footer {
 
 #bar {
   padding: 1rem;
-  background-color: #262626;
+  background-color: #11151C;
   text-align: left;
 }
 
 #content {
   padding: 1rem;
-  background-color: #262626;
+  background-color: #11151C;
 }
