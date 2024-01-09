@@ -17,12 +17,6 @@
   text-align: right;
 }
 
-@media screen and (max-width: 1196px) {
-  #logo {
-    display: none;
-  }
-}
-
 a {
   color: #FFB454;
 }
