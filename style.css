@@ -3,7 +3,8 @@
 html, body {
     height: 100%;
     width: 100%;
-    padding: 0; margin: 0; /* reset the default stylesheet */
+    padding: 0; 
+    margin: 0;
 }
 
 :root {
