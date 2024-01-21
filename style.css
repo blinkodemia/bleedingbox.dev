@@ -1,9 +1,12 @@
 @import "normalize.css" @import
 
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0; margin: 0; /* reset the default stylesheet */
+}
+
 :root {
-  height: 100%;
-  width: 100%
-  margin: 0;
   padding: 2rem;
   font-display: swap;
   font-family: monospace, ui-monospace;
