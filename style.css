@@ -3,8 +3,8 @@
 
 :root {
   padding: 2rem;
-  color: #f2f4f8;
-  background-color: #0B0E14;
+  color: #eeeeee;
+  background-color: #080808;
   font-family: "JetBrains Mono", monospace;
   font-style: italic;
   text-align: left;
@@ -12,16 +12,16 @@
 
 #logo {
   font-size: 32px;
-  color: #FFB454;
+  color: #C10023;
   text-align: right;
 }
 
 a {
-  color: #FFB454;
+  color: #C10023;
 }
 
 #warning {
-	color: #FFB454;
+	color: #C10023;
 }
 
 footer {
@@ -32,7 +32,7 @@ footer {
 
 #info {
   padding: 1rem;
-  background-color: #11151C;
+  background-color: #161616;
 }
 
 #blogs {
@@ -41,11 +41,11 @@ footer {
 
 #bar {
   padding: 1rem;
-  background-color: #11151C;
+  background-color: #161616;
   text-align: left;
 }
 
 #content {
   padding: 1rem;
-  background-color: #11151C;
+  background-color: #161616;
 }
