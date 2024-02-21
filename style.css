@@ -8,6 +8,8 @@
   font-family: "JetBrains Mono", monospace;
   font-style: italic;
   text-align: left;
+  image-rendering: crisp-edges;
+  text-rendering: optimizeLegibility;
 }
 
 #logo {
@@ -48,4 +50,8 @@ footer {
 #content {
   padding: 1rem;
   background-color: #161616;
+}
+
+#badges {
+	text-align: center;
 }
